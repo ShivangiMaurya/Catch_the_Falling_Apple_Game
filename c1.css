@@ -1,0 +1,32 @@
+body {
+    background: linear-gradient(to bottom, #7c0502, #0b5f9dde);
+    text-align: center;
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+/* Since CSS won’t work inside the <canvas>, So we have to use JavaScript to style and draw text inside the canvas. */
+canvas {
+    background: #7c0502;
+    display: block;
+    border: 3px solid #222;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+}
+
+/* Restart Button */
+ #restartButton {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    display: none;  /* To Hide initially */
+    margin-top: 20px;
+}  
